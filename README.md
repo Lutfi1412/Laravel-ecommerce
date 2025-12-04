@@ -8,26 +8,23 @@ PHP 8.1+
 
 Composer
 
-MySQL / MariaDB / PostgreSQL (sesuaikan)
+MySQL
 
-Node.js + NPM (untuk build frontend)
+Node.js + NPM (tailwind)
 
 Laravel CLI (opsional)
 
 # Clone Repository
 ``` sh
-Copy code
 git clone https://github.com/morientes0856/ujian.git
 cd your-laravel-project
 ```
 # Install Dependencies
 Install dependency backend (Laravel)
 ```sh
-Copy code
 composer install
 ```
 ```sh
-Copy code
 npm install
 ```
 # Setup Environment .env
@@ -55,12 +52,9 @@ php artisan key:generate
 # Migrasi Database + Seeder (Opsional)
 Jalankan migrasi:
 ```sh
-Copy code
 php artisan migrate
-Jika juga ingin menjalankan seeder:
 ```
 ```sh
-Copy code
 php artisan migrate --seed
 ```
 # Menjalankan Backend (Laravel Server)
