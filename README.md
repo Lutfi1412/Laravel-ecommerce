@@ -46,7 +46,6 @@ DB_PASSWORD=
 ```
 # Generate Application Key
 ```sh
-Copy code
 php artisan key:generate
 ```
 # Migrasi Database + Seeder (Opsional)
